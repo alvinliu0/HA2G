@@ -8,4 +8,18 @@ Generating speech-consistent body and gesture movements is a long-standing probl
 
 <img src='./misc/HA2G.png' width=800>
 
+## Code
+
 The code is coming soon. Stay tuned!
+
+## Citation
+
+If you find our work useful, please kindly cite as:
+```
+@inproceedings{liu2022learning,
+title={Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation},
+author={Liu, Xian and Wu, Qianyi and Zhou, Hang and Xu, Yinghao and Qian, Rui and Lin, Xinyi and Zhou, Xiaowei and Wu, Wayne and Dai, Bo and Zhou, Bolei},
+booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+year={2022}
+}
+```
