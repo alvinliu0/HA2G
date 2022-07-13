@@ -95,7 +95,7 @@ Running whole data collection pipeline is complex and takes several days, so we 
 ### Download videos and transcripts
 We do not provide the videos and transcripts of TED talks due to copyright issues.
 You should download actual videos and transcripts by yourself as follows:  
-1. Download and copy [[video_ids.txt]](https://github.com/alvinliu0/HA2G/dataset_script/video_ids.txt) file which contains video ids into `./videos_ted` directory.
+1. Download and copy [[video_ids.txt]](https://github.com/alvinliu0/HA2G/blob/main/dataset_script/video_ids.txt) file which contains video ids into `./videos_ted` directory.
 2. Run `download_video.py`. It downloads the videos and transcripts in `video_ids.txt`.
 Some videos may not match to the extracted poses that we provided if the videos are re-uploaded.
 Please compare the numbers of frames, just in case.

@@ -1,6 +1,6 @@
 # Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation (CVPR 2022)
 
-[Xian Liu](https://alvinliu0.github.io/), [Qianyi Wu](https://wuqianyi.top/), [Hang Zhou](https://hangz-nju-cuhk.github.io/), [Yinghao Xu](https://justimyhxu.github.io/), [Rui Qian](https://shvdiwnkozbw.github.io/), [Xinyi Lin](https://alvinliu0.github.io/), [Xiaowei Zhou](https://xzhou.me/), [Wayne Wu](https://wywu.github.io/), [Bo Dai](http://daibo.info/), and [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/).
+[Xian Liu](https://alvinliu0.github.io/), [Qianyi Wu](https://wuqianyi.top/), [Hang Zhou](https://hangz-nju-cuhk.github.io/), [Yinghao Xu](https://justimyhxu.github.io/), [Rui Qian](https://shvdiwnkozbw.github.io/), [Xinyi Lin](https://alvinliu0.github.io/), [Xiaowei Zhou](https://xzhou.me/), [Wayne Wu](https://wywu.github.io/), [Bo Dai](http://daibo.info/), [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/).
 
 ### [Project](https://alvinliu0.github.io/projects/HA2G) | [Paper](https://arxiv.org/pdf/2203.13161.pdf) | [Demo](https://www.youtube.com/watch?v=CG632W-nIWk)
 
@@ -32,9 +32,9 @@ This project is developed and tested on Ubuntu 18.04, Python 3.6+, and PyTorch 1
 
 1. Download [the preprocessed TED Expressive dataset](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155165198_link_cuhk_edu_hk/EQhOOXYsZDhJs-oEVwA7oyABSrkwcTKC6kwX-A85r0-42g?e=BiIsV1) (16GB) and extract the ZIP file into `data/ted_expressive_dataset`. 
 
-You can find out the details of the TED Expressive dataset from [here](https://github.com/alvinliu0/HA2G/dataset_script/README.md). The dataset pre-processing are extended based on [youtube-gesture-dataset](https://github.com/youngwoo-yoon/youtube-gesture-dataset).
+You can find out the details of the TED Expressive dataset from [here](https://github.com/alvinliu0/HA2G/blob/main/dataset_script/README.md). The dataset pre-processing are extended based on [youtube-gesture-dataset](https://github.com/youngwoo-yoon/youtube-gesture-dataset).
 
-0. Download pretrianed fasttext model from [here](https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M-subword.zip) and put `crawl-300d-2M-subword.bin` and `crawl-300d-2M-subword.vec` at `data/fasttext`.
+2. Download pretrianed fasttext model from [here](https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M-subword.zip) and put `crawl-300d-2M-subword.bin` and `crawl-300d-2M-subword.vec` at `data/fasttext`.
 
 ## Training
 
