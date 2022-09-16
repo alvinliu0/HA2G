@@ -54,6 +54,7 @@ The scripts are tested on Ubuntu 16.04 LTS and Python 3.5.2.
 
 6. Execute `run_expose.py`
    * Run [ExPose](https://github.com/vchoutas/expose) to extract 3D human body, hand (contain finger), and face skeletons for all videos (./expose_ted/vid/*.npz). 
+   * Note that during our implementation, I fail to set up the open3d environment required by ExPose in the slurm without sudo. Hence I modify the inference code to avoid from such dependency. Besides, the output format of ExPose is slightly changed to better facilitate the dataset building (i.e., save extra estimated camera paramters for 3D keypoints visualization in Step 10). You could substitute the original `inference.py` under the ExPose directory by the [modified version code](https://github.com/alvinliu0/HA2G/blob/main/dataset_script/script/inference.py).
 
 7. Execute `run_scenedetect.py`
    * Run [PySceneDetect](https://pyscenedetect.readthedocs.io/en/latest/) to divide videos into scene clips (./clip_ted/*.csv).
@@ -67,7 +68,7 @@ The scripts are tested on Ubuntu 16.04 LTS and Python 3.5.2.
    * Save clips with body skeletons (./filter_res/vid/*.json).
 
 10. *(optional)* Execute `review_filtered_clips.py`
-   * Review filtering results.
+   * Review filtering results. Note that different from the original process that visualize the 2D keypoints on the image, we additionally support the visualization of 3D keypoint extracted by ExPose based on coordinates and camera parameters.
 
 <!-- 10. *(optional)* Execute `merge_dataset.py`
    * Only necessary if you create multiple sub-datasets for multi-processing and want to merge them together (./whole_output/*.pickle). -->
