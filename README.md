@@ -1,6 +1,6 @@
 # Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation (CVPR 2022)
 
-[Xian Liu](https://alvinliu0.github.io/), [Qianyi Wu](https://wuqianyi.top/), [Hang Zhou](https://hangz-nju-cuhk.github.io/), [Yinghao Xu](https://justimyhxu.github.io/), [Rui Qian](https://shvdiwnkozbw.github.io/), [Xinyi Lin](https://alvinliu0.github.io/), [Xiaowei Zhou](https://xzhou.me/), [Wayne Wu](https://wywu.github.io/), [Bo Dai](http://daibo.info/), [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/).
+[Xian Liu](https://alvinliu0.github.io/), [Qianyi Wu](https://qianyiwu.github.io/), [Hang Zhou](https://hangz-nju-cuhk.github.io/), [Yinghao Xu](https://justimyhxu.github.io/), [Rui Qian](https://shvdiwnkozbw.github.io/), [Xinyi Lin](https://alvinliu0.github.io/), [Xiaowei Zhou](https://xzhou.me/), [Wayne Wu](https://wywu.github.io/), [Bo Dai](http://daibo.info/), [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/).
 
 ### [Project](https://alvinliu0.github.io/projects/HA2G) | [Paper](https://arxiv.org/pdf/2203.13161.pdf) | [Demo](https://www.youtube.com/watch?v=CG632W-nIWk) | [Data](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155165198_link_cuhk_edu_hk/EQhOOXYsZDhJs-oEVwA7oyABSrkwcTKC6kwX-A85r0-42g?e=BiIsV1)
 
