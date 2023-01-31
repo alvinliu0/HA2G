@@ -8,6 +8,10 @@ Generating speech-consistent body and gesture movements is a long-standing probl
 
 <img src='./misc/HA2G.png' width=800>
 
+## Update
+
+- [2023/01/31] An evaluation bug on the BC metric is reported ([L424](https://github.com/alvinliu0/HA2G/blob/main/scripts/train.py#L424) of the scripts/train.py file and [L539](https://github.com/alvinliu0/HA2G/blob/main/scripts/train_expressive.py#L539) of the scripts/train_expressive.py file). Originally, the mean pose vectors are not added back to recover the correct skeleton in the main paper's reported BC evaluation results. We will update the quantitative results in the arxiv updates.
+
 ## Environment
 
 This project is developed and tested on Ubuntu 18.04, Python 3.6, PyTorch 1.10.2 and CUDA version 11.3. Since the repository is developed based on [Gesture Generation from Trimodal Context](https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context) of Yoon et al., the environment requirements, installation and dataset preparation process generally follow theirs.
