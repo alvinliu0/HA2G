@@ -180,5 +180,12 @@ If you find our work useful, please kindly cite as:
 }
 ```
 
+## Related Links
+If you are interested in **Audio-Driven Co-Speech Gesture Generation**, we would also like to recommend you to check out our other related works:
+
+* Audio-Driven Co-Speech Gesture Video Generation, [ANGIE](https://alvinliu0.github.io/projects/ANGIE).
+
+* Taming Diffusion Model for Co-Speech Gesture, [DiffGesture](https://github.com/Advocate99/DiffGesture).
+
 ## Acknowledgement
 * The codebase is developed based on [Gesture Generation from Trimodal Context](https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context) of Yoon et al.
